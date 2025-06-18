@@ -1,49 +1,39 @@
+# GPT-2 Based Text Generator
 
----
+This project demonstrates how to fine-tune and use OpenAI's GPT-2 model for generating human-like text using the `transformers` library by Hugging Face.
 
-## 💻 How It Works
+## 🎯 Objective
+Generate coherent and creative text using a pre-trained language model (GPT-2) based on a user-provided prompt.
 
-1. Load GPT-2 pre-trained model and tokenizer from HuggingFace
-2. Tokenize user input (prompt)
-3. Generate output text using `generate()` method with `top_k` sampling
-4. Decode and display the generated paragraph
+## 🛠 Technologies Used
+- Python
+- Transformers (by Hugging Face)
+- Pretrained GPT-2 Model
 
----
+## 🧠 How It Works
+1. The user enters a prompt (e.g., “The future of AI in India...”)
+2. The model generates text based on the context
+3. GPT-2 continues the sentence in a human-like way
 
-## 🧰 Tools & Technologies
+## 📈 Applications
+- Generative AI & NLP
+- Chatbots & Text Assistants
+- Creative Writing Automation
 
-- Python 3.11+
-- HuggingFace Transformers (`gpt2`)
-- PyTorch
-- Google Colab
+## 🚀 How to Run
+1. Install requirements:
+   ```bash
+   pip install transformers
+2. Run the notebook:
 
----
+gpt2_generator.ipynb in Google Colab or Jupyter
 
-## 🚀 Why This Project?
+3. Sample Output:
 
-This project demonstrates:
-- Hands-on understanding of **language modeling**
-- Use of **transformer-based generative models**
-- Practical skill in using HuggingFace and managing model inference
+Input Prompt: "The future of AI in India"
+Generated Output: "The future of AI in India is bright. With growing investment and talent..."
+📌 Notes
+Model used: gpt2 (small)
 
-It reflects my interest and self-driven learning in **Generative AI**, one of the key focus areas of the internship.
-
----
-
-## 📂 Status
-
-✔️ Completed and working  
-📁 Uploaded to GitHub for review  
-
-
----
-
-## 📧 Contact
-
-**Sri Guru H G**  
-BE, RNS Institute of Technology  
-Email: hgsriguru@gmail.com  
-
-
----
+Tokenizer and model from HuggingFace Hub
 
