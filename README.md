@@ -1,39 +1,39 @@
-# GPT-2 Based Text Generator
+# 🧠 GPT-2 Text Generator
 
-This project demonstrates how to fine-tune and use OpenAI's GPT-2 model for generating human-like text using the `transformers` library by Hugging Face.
+A simple text generator using the GPT-2 language model, built with Hugging Face Transformers. This project showcases the power of Generative AI to produce human-like text from a given prompt.
 
-## 🎯 Objective
-Generate coherent and creative text using a pre-trained language model (GPT-2) based on a user-provided prompt.
+## 📦 Requirements
 
-## 🛠 Technologies Used
-- Python
-- Transformers (by Hugging Face)
-- Pretrained GPT-2 Model
-
-## 🧠 How It Works
-1. The user enters a prompt (e.g., “The future of AI in India...”)
-2. The model generates text based on the context
-3. GPT-2 continues the sentence in a human-like way
-
-## 📈 Applications
-- Generative AI & NLP
-- Chatbots & Text Assistants
-- Creative Writing Automation
+- Python 3.8+
+- Transformers
+- Torch
+- Colab or Jupyter Notebook (Recommended)
 
 ## 🚀 How to Run
-1. Install requirements:
-   ```bash
-   pip install transformers
-2. Run the notebook:
 
-gpt2_generator.ipynb in Google Colab or Jupyter
+1. Open the notebook in Google Colab.
+2. Install required libraries (auto-install in Colab).
+3. Run all cells and enter a prompt to generate text.
 
-3. Sample Output:
+## 🧪 Sample Output
 
 Input Prompt: "The future of AI in India"
-Generated Output: "The future of AI in India is bright. With growing investment and talent..."
-📌 Notes
-Model used: gpt2 (small)
 
-Tokenizer and model from HuggingFace Hub
+Generated Output: "The future of AI in India is promising. With increasing investments, a surge in talent, and government initiatives, the AI ecosystem is poised to revolutionize industries across the country."
+
+
+> Note: Output may vary slightly each time due to the probabilistic nature of GPT-2.
+
+## 📁 Dataset & Model
+
+- Uses pre-trained GPT-2 (`distilgpt2`) from Hugging Face.
+- No external training required.
+
+## 📚 Domain Relevance
+
+This project aligns with the **Generative AI** and **Explainable AI** domain offered in the IIT Kharagpur Summer Internship 2025. It highlights key skills in:
+- NLP
+- Transformers
+- Hugging Face
+- Python
 
